@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lego Collection</title>
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body tabindex="-1">
+  <%- include('partials/navbar', {page: '/'}) %>
+      
+    <div class="container mx-auto">
+
+      <div class="hero w-200 bg-base-200">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div>
+            <h1 class="text-5xl font-bold">World of legos</h1>
+            <p class="py-6">Find best legos sets for best price!</p>
+            <a href="/lego/sets" class="btn btn-primary">Get Started</a>
+
+          </div>
+        </div>
+      </div>
+
+
+        <div class="grid grid-cols-3 p-auto">
+          <div class="">
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img class="w-full" src="https://cdn.rebrickable.com/media/sets/6395-1.jpg" alt="legoset" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Victory Lap Raceway</h2>
+                <p>Victory Lap Raceway also known as Grand Prix Racing Scene </p>
+                <div class="card-actions justify-end">
+                  <a href="/lego/sets/6395-1" class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img class="w-full" src="https://cdn.rebrickable.com/media/sets/6396384-1.jpg" alt="legoset" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Tiger</h2>
+                <p>Available at “make and take” events held in the LEGO Brand Store in Leicester Square in London, United Kingdom on January 29 and January 30, 2022 in honor of Lunar New Year.</p>
+                <div class="card-actions justify-end">
+                  <a href="/lego/sets/6396384-1" class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img class="w-full" src="https://cdn.rebrickable.com/media/sets/6399425-1.jpg" alt="legoset" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">The Lego Store Passport</h2>
+                <p>This passport is known to have been used from 2017 when participating stores had their own stamp with the city's name.</p>
+                <div class="card-actions justify-end">
+                  <a href="/lego/sets/6399425-1" class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+</body>
+
+</html> 
